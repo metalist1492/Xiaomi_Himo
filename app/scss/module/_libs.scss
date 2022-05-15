@@ -1,0 +1,18 @@
+/*** Grid ***/
+
+$container-max-widths: (sm: 100%,
+    md: 100%,
+    lg: 100%,
+    xl: 100%,
+    xxl: 1720px);
+
+$grid-breakpoints: (xs: 0,
+    sm: 976px,
+    md: 1168px,
+    lg: 1392px,
+    xl: 1600px,
+    xxl: 1720px);
+
+$grid-gutter-width: 20px;
+
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
